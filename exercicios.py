@@ -63,14 +63,24 @@ import math as m
 # print(resultado)
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # text = input("Introduza o seu nome completo: ")
-# resultado = text.upper()
+# resultado = text.lower()
 # print(resultado)
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
-text = input("Introduza uma frase: ")
-resultado = text.strip()
-print(resultado)
+# text = input("Introduza uma frase: ")
+# resultado = text.strip()
+# print(resultado)
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+# data = input("Digite uma data com o seguinte formato dd/mm/yyyy: ")
+# date_list = data.split("/")
+# print(f"Dia:  {date_list[0]}")
+# print(f"Mês:  {date_list[1]}")
+# print(f"Ano:  {date_list[2]}")
+
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+text1 = input("Introduza a primeira palavra: ")
+text2 = input("Introduza a primeira palavra: ")
+resultado = text1 + text2
+print(f"Texto contactenado: {resultado}")
 
 # #### Booleanos (`bool`)
 
