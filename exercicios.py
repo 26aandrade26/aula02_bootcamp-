@@ -77,10 +77,10 @@ import math as m
 # print(f"Ano:  {date_list[2]}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
-text1 = input("Introduza a primeira palavra: ")
-text2 = input("Introduza a primeira palavra: ")
-resultado = text1 + text2
-print(f"Texto contactenado: {resultado}")
+# text1 = input("Introduza a primeira palavra: ")
+# text2 = input("Introduza a primeira palavra: ")
+# resultado = text1 + text2
+# print(f"Texto contactenado: {resultado}")
 
 # #### Booleanos (`bool`)
 
@@ -93,6 +93,13 @@ print(f"Texto contactenado: {resultado}")
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+try:
+    celsius = float(input("Digite a temperatura em Celsius: "))
+    resultado = celsius * 1.8 + 32
+    print(f"A temperatura em Fahrenheit é: {resultado}")
+except ValueError:
+    print("Por favor, digite uma temperatura correcta.")
+
 # 22: Verificador de Palíndromo
 # 23: Calculadora Simples
 # 24: Classificador de Números
